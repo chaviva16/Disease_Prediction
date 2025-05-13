@@ -14,12 +14,12 @@ The Disease Prediction System is a machine learning-powered web application that
 ✅ Streamlit Web Interface – Offers an intuitive and interactive UI for symptom input and disease prediction.
 
 🛠 Setup Instructions
+
 📥 1. Clone the Repository
 bash
-Copy
-Edit
 git clone https://github.com/chaviva16/Disease_Prediction.git
 cd Disease_Prediction
+
 🧠 2. Model Training
 The system trains three machine learning models using a structured dataset of symptoms and their corresponding diseases.
 Key techniques include:
@@ -36,18 +36,12 @@ Support Vector Machine (SVM)
 
 Naïve Bayes
 
-📦 3. Download Pretrained Model
-To reduce repository size, the Random Forest model is hosted externally.
-➡️ Download here:
-🔗 Download Random Forest Model
 
 🚀 Usage
 Run the Streamlit app locally:
 
 bash
-Copy
-Edit
-streamlit run app.py
+streamlit run Disease_prediction_app.py
 This launches a web interface where users can select symptoms and receive disease predictions instantly.
 
 🎯 Future Enhancements
