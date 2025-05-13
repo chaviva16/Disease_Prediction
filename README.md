@@ -1,24 +1,34 @@
-# 🏥 Disease Prediction System  
+🏥 Disease Prediction System
+🌟 Overview
+The Disease Prediction System is a machine learning-powered web application that predicts potential diseases based on user-input symptoms. It utilizes a combination of Random Forest, Support Vector Machine (SVM), and Naïve Bayes models integrated via a weighted voting ensemble to ensure high prediction accuracy.
 
-## 🌟 Overview  
-The **Disease Prediction System** is a machine learning-powered web application that predicts diseases based on user input symptoms. It leverages **Random Forest, SVM, 
-and Naïve Bayes** models combined with a **weighted voting system** for enhanced accuracy.
+🔍 Features
+✅ Multiple ML Models – Leverages the strengths of Random Forest, SVM, and Naïve Bayes.
 
-## 🔍 Features  
-✔ **Machine Learning Models** – Uses **Random Forest, SVM, and Naïve Bayes** for predictions.  
-✔ **Weighted Voting System** – Combines predictions from different models for better reliability.  
-✔ **Feature Selection** – Identifies key symptoms for improved disease classification.  
-✔ **Hyperparameter Tuning** – Optimized settings using **GridSearchCV**.  
-✔ **Streamlit Web App** – Provides an interactive **web-based interface** for easy user interaction.  
+✅ Weighted Voting System – Improves reliability by combining predictions from all models.
 
-## 🛠 Setup Instructions  
-### **1️⃣ Clone the Repository**  
-```sh
+✅ Feature Selection – Focuses on the most informative symptoms to enhance prediction quality.
+
+✅ Hyperparameter Tuning – Optimized via GridSearchCV for best performance.
+
+✅ Streamlit Web Interface – Offers an intuitive and interactive UI for symptom input and disease prediction.
+
+🛠 Setup Instructions
+📥 1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/chaviva16/Disease_Prediction.git
 cd Disease_Prediction
+🧠 2. Model Training
+The system trains three machine learning models using a structured dataset of symptoms and their corresponding diseases.
+Key techniques include:
 
-📊 Model Training
-This project trains three machine learning models:
+Oversampling (e.g., RandomOverSampler) to handle class imbalance
+
+GridSearchCV for model tuning
+
+The trained models include:
 
 Random Forest
 
@@ -26,15 +36,26 @@ Support Vector Machine (SVM)
 
 Naïve Bayes
 
-The models are trained on a structured disease dataset containing symptoms mapped to different illnesses.
- Oversampling techniques such as RandomOverSampler are used to balance the data.
+📦 3. Download Pretrained Model
+To reduce repository size, the Random Forest model is hosted externally.
+➡️ Download here:
+🔗 Download Random Forest Model
 
-Download the Random Forest Model
-Since the Random Forest model is large, it has been uploaded separately to Google Drive. Download it here:
-https://drive.google.com/file/d/1kM3tHz1DsbWnCLx9c_hfmbn9AS-nZ95s/view?usp=sharing
+🚀 Usage
+Run the Streamlit app locally:
 
-## 🎯 Future Work & Improvements
-✅ Get More Data – Expand the dataset with real-world medical cases for better generalization.
- ✅ Integrate Deep Learning – Implement Neural Networks or XGBoost for improved accuracy.
- ✅ Enhance User Interface – Make symptom selection more interactive and intuitive.
- ✅ Deploy Online – Host the Streamlit app using Streamlit Cloud or Render for public access.
+bash
+Copy
+Edit
+streamlit run app.py
+This launches a web interface where users can select symptoms and receive disease predictions instantly.
+
+🎯 Future Enhancements
+📈 Expand Dataset – Incorporate more diverse and real-world clinical data
+
+🧠 Add Deep Learning Models – Integrate Neural Networks or XGBoost for enhanced accuracy
+
+🖱️ Improve UI/UX – Make symptom selection more intuitive and user-friendly
+
+🌐 Deploy Online – Host the app on Streamlit Cloud, Render, or Heroku for public access
+
