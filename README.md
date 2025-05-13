@@ -1,6 +1,7 @@
 🏥 Disease Prediction System
 🌟 Overview
-The Disease Prediction System is a machine learning-powered web application that predicts potential diseases based on user-input symptoms. It utilizes a combination of Random Forest, Support Vector Machine (SVM), and Naïve Bayes models integrated via a weighted voting ensemble to ensure high prediction accuracy.
+The Disease Prediction System is a machine learning powered web application that predicts potential diseases based on user input symptoms. It utilizes a combination of Random Forest, Support Vector Machine (SVM), 
+and Naïve Bayes models integrated via a weighted voting ensemble to ensure high prediction accuracy.
 
 🔍 Features
 ✅ Multiple ML Models – Leverages the strengths of Random Forest, SVM, and Naïve Bayes.
@@ -18,7 +19,8 @@ The Disease Prediction System is a machine learning-powered web application that
 📥 1. Clone the Repository
 bash
 git clone https://github.com/chaviva16/Disease_Prediction.git
-cd Disease_Prediction
+
+cd Disease_prediction
 
 🧠 2. Model Training
 The system trains three machine learning models using a structured dataset of symptoms and their corresponding diseases.
