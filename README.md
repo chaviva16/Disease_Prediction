@@ -16,7 +16,7 @@ and Naïve Bayes models integrated via a weighted voting ensemble to ensure high
 
 ✅ Streamlit Web Interface – Offers an intuitive and interactive UI for symptom input and disease prediction.
 
-🛠 Setup Instructions
+## 🛠 Setup Instructions
 
 📥 1. Clone the Repository
 bash
@@ -45,7 +45,9 @@ Naïve Bayes
 Run the Streamlit app locally:
 
 bash
+
 streamlit run Disease_prediction_app.py
+
 This launches a web interface where users can select symptoms and receive disease predictions instantly.
 
 ## 🎯 Future Enhancements
