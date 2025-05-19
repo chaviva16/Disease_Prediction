@@ -1,9 +1,11 @@
-🏥 Disease Prediction System
-🌟 Overview
+## 🏥 Disease Prediction System
+
+
+## 🌟 Overview
 The Disease Prediction System is a machine learning powered web application that predicts potential diseases based on user input symptoms. It utilizes a combination of Random Forest, Support Vector Machine (SVM), 
 and Naïve Bayes models integrated via a weighted voting ensemble to ensure high prediction accuracy.
 
-🔍 Features
+## 🔍 Features
 ✅ Multiple ML Models – Leverages the strengths of Random Forest, SVM, and Naïve Bayes.
 
 ✅ Weighted Voting System – Improves reliability by combining predictions from all models.
@@ -39,14 +41,14 @@ Support Vector Machine (SVM)
 Naïve Bayes
 
 
-🚀 Usage
+## 🚀 Usage
 Run the Streamlit app locally:
 
 bash
 streamlit run Disease_prediction_app.py
 This launches a web interface where users can select symptoms and receive disease predictions instantly.
 
-🎯 Future Enhancements
+## 🎯 Future Enhancements
 📈 Expand Dataset – Incorporate more diverse and real-world clinical data
 
 🧠 Add Deep Learning Models – Integrate Neural Networks or XGBoost for enhanced accuracy
